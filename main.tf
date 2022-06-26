@@ -35,7 +35,7 @@ resource "aws_security_group" "my_security_group" {
 }
 
 # Create AWS ec2 instance
-resource "aws_instance" "26thJune2022instance" {
+resource "aws_instance" "Tf2instance" {
   ami           = var.ami_id
   key_name = var.key_name
   instance_type = var.instance_type
